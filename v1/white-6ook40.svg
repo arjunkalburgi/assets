@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1322px" height="1320px" viewBox="0 0 1322 1320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" stroke="#FFFFFF" stroke-width="35">
+            <polygon id="Triangle" points="660 60 1262 859 58 859"></polygon>
+            <polygon id="Triangle-Copy" transform="translate(660.000000, 860.500000) scale(1, -1) translate(-660.000000, -860.500000) " points="660 461 1262 1260 58 1260"></polygon>
+            <polygon id="Triangle-2" points="660 560 1060 1063 260 1063"></polygon>
+            <polygon id="Triangle-2-Copy" transform="translate(660.000000, 508.500000) scale(1, -1) translate(-660.000000, -508.500000) " points="660 257 1060 760 260 760"></polygon>
+            <polygon id="Triangle-3" points="660 860 860 1201 460 1201"></polygon>
+            <polygon id="Triangle-3-Copy" transform="translate(660.000000, 289.500000) scale(1, -1) translate(-660.000000, -289.500000) " points="660 119 860 460 460 460"></polygon>
+            <path d="M660.5,120.5 L660.5,1199.5" id="Line" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
