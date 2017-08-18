@@ -1,13 +1,13 @@
-### ASKalburgi Brand and Style Guidelines
+# ASKalburgi Brand and Style Guidelines
 For all public content via Arjun Kalburgi
 
 ## 1. Brand Story 
 A strong belief in the power of engagement. People on a mission are inspiring, my mission is to enable that level of engagement. Whether it’s by designing user interfaces, developing apps, analysing data or running hackathons.
 
-# Values 
+### Values 
 The 6ix values of the brand are catagorized by:
 
-# Personality 
+### Personality 
 Fun and goofy but also clean. Value focused. 
 
 
