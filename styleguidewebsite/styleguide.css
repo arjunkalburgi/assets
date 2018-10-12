@@ -9,11 +9,15 @@
     position: relative;
     margin-bottom: 6px;
     margin-right: 6px; 
+    width: 200px;
 }
 
 .box-stuff {
     cursor: pointer;
     padding: 48px 18px;
+}
+
+.box-stuff span {
     font-weight: 900;
 }
 
