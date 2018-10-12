@@ -1,0 +1,131 @@
+.boxes {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.box {
+    border-radius: 2px;
+    border: solid 1px #bdbbb9;
+    position: relative;
+    margin-bottom: 6px;
+    margin-right: 6px; 
+}
+
+.box-stuff {
+    cursor: pointer;
+    padding: 48px 18px;
+    font-weight: 900;
+}
+
+pre {
+    display: block;
+    white-space: pre-wrap;
+    padding: 12px 15px;
+    max-width: 635px
+}
+
+::selection {
+    color: #241c15;
+    background: rgba(255, 224, 27, 0.5)
+}
+
+::-moz-selection {
+    color: #241c15;
+    background: rgba(255, 224, 27, 0.5)
+}
+
+::-moz-focus-inner {
+    border: 0
+}
+
+.padding--lv8 {
+    padding: 48px
+}
+
+.padding-right--lv3 {
+    padding-right: 18px
+}
+
+.padding-left--lv3 {
+    padding-left: 18px
+}
+
+.padding--lv0 {
+    padding: 0
+}
+
+.margin-right--lv1 {
+    margin-right: 6px
+}
+
+.margin-bottom--lv1 {
+    margin-bottom: 6px
+}
+
+.section {
+    margin-bottom: 24px
+}
+
+.font-weight--bold {
+    font-weight: 500
+}
+
+.v-textColorWhite {
+    color: #ffffff
+}
+
+.position--relative {
+    position: relative
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex
+}
+
+.flex-wrap--wrap {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.cursor--pointer {
+    cursor: pointer
+}
+
+.border-gray {
+    border: solid 1px #bdbbb9
+}
+
+.border-radius--lv1 {
+    border-radius: 2px
+}
+
+@media print {
+    @page {
+        margin: 1.5cm .5cm
+    }
+
+    * {
+        -webkit-transition-property: none !important;
+        -ms-transition-property: none !important;
+        transition-property: none !important
+    }
+
+    html,
+    body {
+        font-size: 13pt;
+        background: #ffffff;
+        padding: 0 !important;
+        display: block !important;
+        height: inherit !important;
+        min-height: inherit
+    }
+}
+
+.c-colorSwatch {
+    min-width: 198px;
+    background-image: url(https://ux.mailchimp.com/release/1.1.10c1d9b6c29e3d23689e217148ecf802205593a24/images/pattern-library/transparent-bg.png)
+}
