@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/hyu1gbw.css">
   <link rel="stylesheet" href="./styleguidewebsite/styleguide.css">
   <link rel="stylesheet" href="./files/lity.css">
-<link rel="icon" type="image/x-icon" href="https://www.arjunkalburgi.com/assets/icons/Black.png">
+  <link rel="icon" type="image/x-icon" href="https://www.arjunkalburgi.com/assets/icons/Black.png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/brands.css" integrity="sha384-nT8r1Kzllf71iZl81CdFzObMsaLOhqBU1JD2+XoAALbdtWaXDOlWOZTR4v1ktjPE" crossorigin="anonymous">
   <style>
     /* For FontAwesome Icons */
@@ -41,10 +41,14 @@
       content: "\f3c7";
     }
   </style>
-  <script src="https://www.arjunkalburgi.com/files/jquery-1.11.0.min.js">
-  </script>
-  <script src="https://www.arjunkalburgi.com/files/blazy.min.js">
-  </script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/solid.css" integrity="sha384-rdyFrfAIC05c5ph7BKz3l5NG5yEottvO/DQ0dCrwD8gzeQDjYBHNr1ucUpQuljos" crossorigin="anonymous">
+  <style>
+    .fa-copy:before{content:"\f0c5"}
+    .fa-check:before{content:"\f00c"}
+  </style>
+  <script src="https://www.arjunkalburgi.com/files/jquery-1.11.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://www.arjunkalburgi.com/files/blazy.min.js"></script>
 </head>
 
 <body>
@@ -80,54 +84,53 @@
         <div>
           <div class="portfolio-style">
             <div class="row">
-              <div class= text animated">
+              <div class="text animated">
                 <div class="medium-12">
                   <h2>Colours</h2>
                   <p>Energetic but grounded, cool but stark.</p>
                   <div class="boxes">
-                    <div class="box" onclick="copyToClipboard('#12A962')" style="background-color: #12A962">
+                    <div class="box" onclick="copyToClipboard(this, '#12A962')" style="background-color: #12A962">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">Primary Green</span>
-                        <div class="padding--lv0">#12A962</div>
-                        <!-- <div class="padding--lv0">#sldkjf</div> -->
+                        <span>Primary Green</span>
+                        <div>#12A962</div>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('#1fc074')" style="background-color: #1fc074">
+                    <div class="box" onclick="copyToClipboard(this, '#1fc074')" style="background-color: #1fc074">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">Highlight Green</span>
-                        <div class="padding--lv0">#1fc074</div>
-                        <!-- <div class="padding--lv0">#sldkjf</div> -->
+                        <span>Highlight Green</span>
+                        <div>#1fc074</div>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('#259f66')" style="background-color: #259f66">
-                      <div class="box-stuff v-textColorWhite">
-                        <span class="">Dark Backgrounds</span>
-                        <div class="padding--lv0">#259f66</div>
-                        <!-- <div class="padding--lv0">#sldkjf</div> -->
-                      </div>
-                    </div>
-                    <div class="box" onclick="copyToClipboard('#000')" style="background-color: #000">
-                      <div class="box-stuff v-textColorWhite">
-                        <span class="">Header Colour</span>
-                        <div class="padding--lv0">#000</div>
-                        <!-- <div class="padding--lv0">#sldkjf</div> -->
-                      </div>
-                    </div>
-                    <div class="box" onclick="copyToClipboard('#5B5B5B')" style="background-color: #5B5B5B">
-                      <div class="box-stuff v-textColorWhite">
-                        <span class="">Text Colour</span>
-                        <div class="padding--lv0">#5B5B5B</div>
-                        <!-- <div class="padding--lv0">#sldkjf</div> -->
-                      </div>
-                    </div>
-                    <div class="box" onclick="copyToClipboard('#F4F4F4')" style="background-color: #F4F4F4">
+                    <div class="box" onclick="copyToClipboard(this, '#259f66')" style="background-color: #259f66">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">Off White</span>
-                        <div class="padding--lv0">#F4F4F4</div>
-                        <!-- <div class="padding--lv0">#sldkjf</div> -->
+                        <span>Dark Backgrounds</span>
+                        <div>#259f66</div>
                       </div>
                     </div>
-
+                    <div class="box" onclick="copyToClipboard(this, '#000')" style="background-color: #000">
+                      <i class="icon fas fa-copy"></i>
+                      <div class="box-stuff">
+                        <span>Header Colour</span>
+                        <div>#000</div>
+                      </div>
+                    </div>
+                    <div class="box" onclick="copyToClipboard(this, '#5B5B5B')" style="background-color: #5B5B5B">
+                      <i class="icon fas fa-copy"></i>
+                      <div class="box-stuff">
+                        <span>Text Colour</span>
+                        <div>#5B5B5B</div>
+                      </div>
+                    </div>
+                    <div class="box" onclick="copyToClipboard(this, '#F4F4F4')" style="background-color: #F4F4F4">
+                      <i class="icon fas fa-copy"></i>
+                      <div class="box-stuff">
+                        <span>Off White</span>
+                        <div>#F4F4F4</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -135,24 +138,27 @@
           </div>
           <div class="portfolio-style">
             <div class="row">
-              <div class= text animated">
+              <div class="text animated">
                 <div class="medium-12">
                   <h2>Logo</h2>
                   <p>A leaf in the wind is a learned one on a journey.</p>
                   <div class="boxes">
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/styleguide/Logo/Main/BlackFull.svg')" style="background-image: url('./Logo/Main/BlackFull.svg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/styleguide/Logo/Main/BlackFull.svg')" style="background-image: url('./Logo/Main/BlackFull.svg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">BlackFull.svg</span>
+                        <span>BlackFull.svg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/styleguide/Logo/Main/Coloured.svg')" style="background-image: url('./Logo/Main/Coloured.svg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/styleguide/Logo/Main/Coloured.svg')" style="background-image: url('./Logo/Main/Coloured.svg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">Coloured.svg</span>
+                        <span>Coloured.svg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/styleguide/Logo/Main/ColouredLeaf.svg')" style="background-image: url('./Logo/Main/ColouredLeaf.svg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/styleguide/Logo/Main/ColouredLeaf.svg')" style="background-image: url('./Logo/Main/ColouredLeaf.svg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">ColouredLeaf.svg</span>
+                        <span>ColouredLeaf.svg</span>
                       </div>
                     </div>
                   </div>
@@ -162,61 +168,71 @@
           </div>
           <div class="portfolio-style">
             <div class="row">
-              <div class= text animated">
+              <div class="text animated">
                 <div class="medium-12">
                   <h2>Iconography</h2>
                   <p>
                     Leaves n leaves
                   </p>
                   <div class="boxes">
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/assets/elements/element01.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element01.svg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/assets/elements/element01.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element01.svg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">element01.svg</span>
+                        <span>element01.svg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/assets/elements/element02.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element02.svg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/assets/elements/element02.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element02.svg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">element02.svg</span>
+                        <span>element02.svg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/assets/elements/element03.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element03.svg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/assets/elements/element03.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element03.svg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">element03.svg</span>
+                        <span>element03.svg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/assets/elements/element05.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element04.svg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/assets/elements/element05.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element04.svg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">element04.svg</span>
+                        <span>element04.svg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/assets/elements/element06.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element05.svg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/assets/elements/element06.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element05.svg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">element05.svg</span>
+                        <span>element05.svg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/assets/elements/element07.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element06.svg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/assets/elements/element07.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element06.svg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">element06.svg</span>
+                        <span>element06.svg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/assets/elements/element08.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element07.svg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/assets/elements/element08.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element07.svg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">element07.svg</span>
+                        <span>element07.svg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/assets/elements/element04.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element08.svg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/assets/elements/element04.svg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/elements/element08.svg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">element08.svg</span>
+                        <span>element08.svg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/styleguide/Imagery/leaves-white.jpg')" style="background-size: cover; background-image: url('./Imagery/leaves-white.jpg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/styleguide/Imagery/leaves-white.jpg')" style="background-size: cover; background-image: url('./Imagery/leaves-white.jpg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">leaves-white.jpg</span>
+                        <span>leaves-white.jpg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/styleguide/Imagery/leaves-green.jpg')" style="background-size: cover; background-image: url('./Imagery/leaves-green.jpg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/styleguide/Imagery/leaves-green.jpg')" style="background-size: cover; background-image: url('./Imagery/leaves-green.jpg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">leaves-green.jpg</span>
+                        <span>leaves-green.jpg</span>
                       </div>
                     </div>
                   </div>
@@ -226,26 +242,29 @@
           </div>
           <div class="portfolio-style">
             <div class="row">
-              <div class= text animated">
+              <div class="text animated">
                 <div class="medium-12">
                   <h2>Imagery</h2>
                   <p>
                     Friendly, low-saturated faces with <i>smiles</i>
                   </p>
                   <div class="boxes">
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/assets/pics/abid.jpg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/pics/abid.jpg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/assets/pics/abid.jpg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/pics/abid.jpg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">abid.jpg</span>
+                        <span>abid.jpg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/assets/pics/sra.jpg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/pics/sra.jpg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/assets/pics/sra.jpg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/pics/sra.jpg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">sra.jpg</span>
+                        <span>sra.jpg</span>
                       </div>
                     </div>
-                    <div class="box" onclick="copyToClipboard('https://www.arjunkalburgi.com/assets/pics/red.jpg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/pics/red.jpg')">
+                    <div class="box" onclick="copyToClipboard(this, 'https://www.arjunkalburgi.com/assets/pics/red.jpg')" style="background-size: cover; background-image: url('https://www.arjunkalburgi.com/assets/pics/red.jpg')">
+                      <i class="icon fas fa-copy"></i>
                       <div class="box-stuff">
-                        <span class="">red.jpg</span>
+                        <span>red.jpg</span>
                       </div>
                     </div>
                   </div>
@@ -299,7 +318,8 @@
   </footer>
   
   <script>
-    function copyToClipboard(copytext) {
+    function copyToClipboard(box, copytext) {
+      $(box).find("i.icon").switchClass('fa-copy', 'fa-check', 100);
 
       // Create an auxiliary hidden input
       var aux = document.createElement("input");
@@ -318,13 +338,11 @@
 
       // Remove the input from the body
       document.body.removeChild(aux);
-
     }
-  </script>
-  <script src="https://www.arjunkalburgi.com/files/foundation.min.js">
-  </script>
-  <script src="https://www.arjunkalburgi.com/files/app.min.js">
-  </script>
-  
+
+    $(".box").mouseleave(function () {
+      $(".box").find("i.icon").removeClass('fa-check').addClass('fa-copy');
+    });
+  </script>  
 </body>
 </html>
