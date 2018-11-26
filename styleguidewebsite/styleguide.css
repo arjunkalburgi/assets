@@ -1,6 +1,7 @@
 .boxes {
     flex-wrap: wrap;
     display: flex;
+    margin-bottom: 5%; 
 }
 
 .box {
