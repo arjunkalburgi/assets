@@ -92,3 +92,18 @@
         min-height: inherit
     }
 }
+
+@media only screen and (max-width: 40em) {
+    .portfolio-style {
+        padding: 10vh .9375rem 0
+    }
+
+    .box {
+        width: 160px; 
+        height: 70px; 
+    }
+
+    .box-stuff {
+        padding: 18px 8px; 
+    }
+}
