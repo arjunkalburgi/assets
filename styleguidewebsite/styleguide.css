@@ -1,3 +1,22 @@
+section {
+    width: 70%; 
+    margin: auto;
+}
+
+section.content {
+    width: 50%; 
+    margin: 25vh 35% 0 15%;
+}
+
+section.footer {
+    margin-top: 25vh; 
+    margin-bottom: 10vh;
+}
+
+.portfolio-style {
+    margin-top: 10vh; 
+}
+
 .boxes {
     flex-wrap: wrap;
     display: flex;
